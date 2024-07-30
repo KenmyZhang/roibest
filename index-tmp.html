@@ -1,0 +1,142 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="width=device-width,initial-scale=1" name="viewport"/>
+        <title>Demo from ROIBest</title>
+        <link href="https://static.roibest.com" rel="preconnect"/>
+        <link href="https://static.roibest.com" rel="dns-prefetch"/>
+        <link href="./roibest/icons/favicon.png" rel="icon"/>
+        <link href="./app.webmanifest" rel="manifest"/>
+        <link href="./roibest/icons/favicon.png" rel="apple-touch-icon"/>
+        <script>
+            let languageJson = {};
+            try {
+                languageJson = JSON.parse("{\"en\":{\"id\":10148,\"project_id\":\"3354345793\",\"language_code\":\"en\",\"created_at\":\"2024-06-13 05:45:01\",\"updated_at\":\"2024-06-13 05:45:01\",\"deleted_at\":null,\"app_name\":\"Demo from ROIBest\",\"app_icon\":\"https://static.roibest.com/oss_upload/202406/13/40bbcab6925cd194c29fd46ab1a1e0e0666a87029798b.jpg\",\"company_name\":\"ROI BEST PTE. LTD.\",\"app_comments\":124,\"app_age_limit\":0,\"app_desc\":\"ROIBest is the pioneer of permanent packaging for Android PWA.\",\"pic_list\":[\"https://static.roibest.com/oss_upload/202406/13/a7cd1ce700278abb1b995ac03c7d02e1666a8718cd5b2.png\",\"https://static.roibest.com/oss_upload/202406/13/40a3f82c3cb1aada3919a0614510a05f666a871bd37f5.png\",\"https://static.roibest.com/oss_upload/202406/13/c33a908de0a165d5c50ffc52c84f0043666a871f3609d.png\"],\"app_labels\":\"ROIBest\",\"app_score_detail\":{\"1\":0,\"2\":0,\"3\":0,\"4\":0,\"5\":9},\"app_comment_list\":[{\"name\":\"KUMA\",\"avatar\":\"\",\"score\":\"5\",\"comment\":\"ROIBest is the pioneer of permanent packaging for Android PWA.\"}],\"app_download\":45353,\"theme_color\":\"\",\"background_color\":\"\",\"app_score\":\"5.0\"}}");
+            } catch {}
+            window.__rb = {
+                template_id: 1,
+                appid: "3354345793",
+                domain: "play.jackpwa.world",
+                package_type: "1",
+                default_menu: "0",
+                language_json: languageJson
+            };
+        </script>
+        <script defer="defer" src="/roibest-assets/js/install-template1-c54a790608f813c190bd.js"></script>
+        <link href="/roibest-assets/css/install-template1-723a4d84807500355248.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" data-type="LANDING_PAGE" id="container">
+            <div class="header">
+                <div class="header__icon">
+                    <img alt="" class="header__icon--img" data-value="app_icon" loading="lazy" src="./roibest/icons/favicon.png"/>
+                    <div class="header__icon--loading" id="iconLoading">
+                        <svg viewBox="25 25 50 50">
+                            <circle cx="50" cy="50" fill="none" r="20"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="header__info">
+                    <div class="header__info-title">
+                        <h1 data-value="app_name"></h1>
+                    </div>
+                    <p class="header__info-description" data-value="company_name"></p>
+                    <p class="header__info-progress" id="installProgress">0%</p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info__view__wrap">
+                    <div class="info__view">
+                        <div class="info__view-value">
+                            <span data-value="app_score"></span>
+                            <img alt="" class="ic_x" loading="lazy" src="/roibest-assets/images/ic_x-5cfcc16318512e841386.png"/>
+                        </div>
+                        <div class="info__view-label" data-value="app_comments"></div>
+                    </div>
+                    <div class="info__view">
+                        <div class="info__view-value" data-value="app_download"></div>
+                        <div class="info__view-label" data-t="downloads.label"></div>
+                    </div>
+                    <div class="info__view">
+                        <img alt="" class="info__view-choice" src="/roibest-assets/images/ic_editors_choice-90a4c40deaa30c9e44e2.png"/>
+                        <div class="info__view-label" data-t="editors_choice"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="install-btn shiny-btn" id="install-btn">
+                <div class="install-btn__ing">
+                    <div class="install-btn__ing__rapid">
+                        <img alt="" class="ic_x" loading="lazy" src="/roibest-assets/images/ic_sd-0f0ff5464df5f1e88241.png"/>
+                        <span data-t="rapid_install">Rapid Install</span>
+                    </div>
+                    <div class="install-btn__ing__countdown">
+                        <span data-t="download_in">Download within</span>
+                        <span class="countdown-num">10</span>
+                        s
+                    </div>
+                </div>
+                <div class="install-btn__play install-btn__view" data-t="play">Play</div>
+                <div class="install-btn__install install-btn__view" data-t="install">Install</div>
+            </div>
+            <div class="img-scroll">
+                <div class="img-scroll__list" data-value="pic_list"></div>
+            </div>
+            <div class="description">
+                <div class="description__title" data-t="about_this_app">About this app</div>
+                <img alt="" class="description__right-arrow" loading="lazy" src="/roibest-assets/images/ic_arrow_right-ecd0952f3569bde7f2bd.png"/>
+                <div class="description__content" data-value="app_desc"></div>
+            </div>
+            <div class="description">
+                <div class="description__title" data-t="updated_on" style="margin-bottom: 5px; font-size: 14px">Updated on</div>
+                <div class="description__content" id="update-time"></div>
+                <div class="description__label" id="description-label"></div>
+            </div>
+            <div class="description">
+                <div class="description__title" data-t="data_safety.label">Data safety</div>
+                <img alt="" class="description__right-arrow" loading="lazy" src="/roibest-assets/images/ic_arrow_right-ecd0952f3569bde7f2bd.png"/>
+                <div class="description__content" data-t="data_safety.content"></div>
+                <div class="description__data-safety">
+                    <div class="description__data-safety__item">
+                        <div class="item-icon">
+                            <img alt="" loading="lazy" src="/roibest-assets/images/ic_data_share-0a04b46579b65b109794.png"/>
+                        </div>
+                        <div class="item-content">
+                            <p data-t="data_safety.share.p1"></p>
+                            <p>
+                                <ins data-t="learn_more"></ins>
+                                <span data-t="data_safety.share.p2"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description__data-safety__item">
+                        <div class="item-icon">
+                            <img alt="" loading="lazy" src="/roibest-assets/images/ic_cloud_upload-12904a12c1aa88f2d082.png"/>
+                        </div>
+                        <div class="item-content">
+                            <p data-t="data_safety.upload"></p>
+                        </div>
+                    </div>
+                    <div class="description__data-safety__item">
+                        <div class="item-icon">
+                            <img alt="" loading="lazy" src="/roibest-assets/images/ic_lock-216fc77ae7e0db5800f3.png"/>
+                        </div>
+                        <div class="item-content">
+                            <p data-t="data_safety.encrypted"></p>
+                        </div>
+                    </div>
+                    <div class="description__data-safety__item">
+                        <div class="item-icon">
+                            <img alt="" loading="lazy" src="/roibest-assets/images/ic_delete-bfa3513105268d92d830.png"/>
+                        </div>
+                        <div class="item-content">
+                            <p data-t="data_safety.delete"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comments" id="rb-comment"></div>
+        </div>
+    </body>
+</html>

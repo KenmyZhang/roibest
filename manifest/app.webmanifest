@@ -1,0 +1,40 @@
+{
+	"id": "3354345793",
+	"name": "Demo from ROIBest",
+	"short_name": "Demo from ROIBest",
+	"categories": ["photo", "productivity", "utilities"],
+	"scope": "./",
+	"start_url": "./index.html",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#000000",
+	"description": "",
+	"screenshots": [{
+		"src": "../img/40a3f82c3cb1aada3919a0614510a05f666a871bd37f5.png",
+		"type": "image/png",
+		"sizes": "360x640"
+	}, {
+		"src": "../img/40a3f82c3cb1aada3919a0614510a05f666a871bd37f5.png",
+        "type": "image/png",
+        "sizes": "360x640"
+    }, {
+		"src": "../img/40a3f82c3cb1aada3919a0614510a05f666a871bd37f5.png",
+        "type": "image/png",
+        "sizes": "360x640"
+    }],
+	"icons": [{
+		"src": "../img/favicon.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	}, {
+		"src": "../img/favicon.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	}, {
+		"src": "../img/favicon.png",
+		"sizes": "512x512",
+		"type": "image/png",
+		"purpose": "any maskable"
+	}],
+	"orientation": "any"
+}
