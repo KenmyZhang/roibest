@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./index-C7lwTere.js";const n={},c={style:{"font-size":"25px",color:"#333",width:"100vw",height:"50vh","text-align":"center","line-height":"100vh"}};function s(r,i,a,h,l,_){return o(),t("h1",c,"hello World")}const d=e(n,[["render",s]]);export{d as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./index-ByYplRUP.js";const n={},c={style:{"font-size":"25px",color:"#333",width:"100%",height:"100vh","text-align":"center","line-height":"50vh"}};function s(r,i,a,h,l,_){return o(),t("h1",c,"hello World")}const d=e(n,[["render",s]]);export{d as default};
